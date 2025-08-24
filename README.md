@@ -182,6 +182,10 @@ Now, let's define a function called **detect_labels**. This function takes a pho
 
 ## ➡️ Final Result
 
-![Output](Images/output.png)
+### Before
 
-This is what your project will look like, once built:
+![Streets](Images/streets1.jpg)
+
+### After
+
+![Output](Images/output2.png)
