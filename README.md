@@ -127,6 +127,10 @@ Default region name [us-east-1]: us-east-1
 Default output format [None]: None
 ```
 
+**Note:** The Access ID and Access Secret Key in the video below are already disabled you cannot use it for demo purpose only.
+
+![AWS Configure](Images/awsconfigure.gif)
+
 We have configured our AWS CLI. For our next steps, we will write the python code for extracting pictures from S3 bucket and applying detect_labels operation from Rekognition to generate the labels with their confidence score.
 
 ## Importing Libraries
