@@ -40,6 +40,8 @@ In the next few lessons, we'll be going through the following steps:
 5. Leave the default settings for the rest of the options and click '**Create Bucket**'.
 6. We will use this bucket to store the images on which labels are to be generated. Let's go ahead and upload some images in the S3 bucket.
 
+[!Diagram](Images/create-s3.gif)
+
 ## Upload Images to S3 Bucket
 
 1. Once the bucket is created, navigate to the bucket.
