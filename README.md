@@ -29,7 +29,7 @@ In the next few lessons, we'll be going through the following steps:
 
 ## ➡️ Diagram
 
-[!Diagram](Images/diagram.png)
+![Diagram](Images/diagram.png)
 
 ## Create an Amazon S3 Bucket
 
@@ -40,7 +40,7 @@ In the next few lessons, we'll be going through the following steps:
 5. Leave the default settings for the rest of the options and click '**Create Bucket**'.
 6. We will use this bucket to store the images on which labels are to be generated. Let's go ahead and upload some images in the S3 bucket.
 
-[!Diagram](Images/create-s3.gif)
+![Create S3 Bucket](Images/create-s3.gif)
 
 ## Upload Images to S3 Bucket
 
@@ -48,6 +48,8 @@ In the next few lessons, we'll be going through the following steps:
 2. Click on the 'Upload' button and select the images you want to analyse from your system.
 3. Click on Upload. Your image has now been uploaded in the S3 bucket.
 4. We will use these images for labelling so try to upload some images that have multiple objects present to see the accuracy of the model when multiple labels are present. For example: A busy city street.
+
+![Upload](Images/upload.gif)
 
 ## Installing the AWS Command line interface(CLI)
 
@@ -76,6 +78,8 @@ To check if the AWS CLI (Command Line Interface) was installed successfully on y
 ```bash
 aws --version
 ```
+
+![AWS CLI](Images/awscli.gif)
 
 **Note:** Restart your terminal if it is giving not installed error
 
