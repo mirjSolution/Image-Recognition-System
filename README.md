@@ -139,8 +139,8 @@ We have configured our AWS CLI. For our next steps, we will write the python cod
 2. Open a terminal and install the libraries needed for this project.
 
 ```bash
-pip install boto3
-pip install matplotlib
+pip3 install boto3
+pip3 install matplotlib
 ```
 
 3. Let's import the necessary libraries. We need:
@@ -152,13 +152,7 @@ pip install matplotlib
 
 4. Add the below code in your .py file.
 
-```python
-import boto3
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-from PIL import Image
-from io import BytesIO
-```
+![Import](Images/import-python.gif)
 
 ## Define Functions
 
